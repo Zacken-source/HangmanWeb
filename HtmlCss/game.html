@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu du Pendu</title>
+</head>
+<body>
+    <h1>Bienvenue au jeu du Pendu !</h1>
+    <p>Mot à deviner: {{.Motcachee}}</p>
+    <p>Vies restantes: {{.Essaies}}</p>
+    <p>Lettres déjà devinées: {{.LettresUtilisee}}</p>
+    <form method="get" action="/game">
+        <input type="text" name="textearecup" maxlength="30" placeholder="Entrez une lettre" required />
+        <button type="submit">Soumettre</button>
+    </form>
+</body>
+</html>

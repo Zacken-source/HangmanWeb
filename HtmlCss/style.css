@@ -1,0 +1,52 @@
+/*
+let's gooooooooooooooooooooooooooooooooo
+*/
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.h1 {
+    font-size: 3em;
+    color: #4CAF50;
+}
+
+.p {
+    font-size: 1.2em;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.game-description {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Section d'animation ou de présentation */
+.game-banner {
+    margin: 20px 0;
+}

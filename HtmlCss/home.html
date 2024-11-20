@@ -1,0 +1,48 @@
+<!--<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serveur</title>
+</head>
+<body>
+    <p>hello</p>
+    <p>pourquoi pas</p>
+    <p>{{ .WordToGuess}}</p>
+    <form action="/input" method="post">
+        <input type="text" name="textearecup" laceholder="phrase">
+    </form>
+
+    {{if .BoolValue}}
+        <p>La valeur est vrai</p>
+    {{else}}
+        <p>la valeur est fausse</p>
+    {{end}}
+
+    {{range .NumberOfButton}}
+        <input type="submit" value="{{ .Letter}}">
+    {{end}}
+</body>
+</html>
+-->
+<!DOCTYPE html>
+    <div class="game-banner">
+        <h1>Bienvenue dans le Jeu!</h1>
+        <p>Prêt à relever le défi et à commencer une nouvelle aventure? Cliquez sur le bouton ci-dessous pour commencer!</p>
+    </div>
+    {{ .Essaies}}
+    <!-- Bouton pour démarrer le jeu -->
+    <a href="game.html" class="button">Démarrer le Jeu</a>
+
+    <!-- Description ou détails supplémentaires -->
+    <div class="game-description">
+        <p>Explorez des mondes fantastiques, résolvez des énigmes et défiez vos amis dans ce jeu palpitant. Que la compétition commence!</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Votre Nom - Tous droits réservés</p>
+    </div>
+
+</body>
+</html>
